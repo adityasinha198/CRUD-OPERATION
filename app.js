@@ -14,3 +14,4 @@ app.use('/v1',userRoutes)
 app.listen(process.env.PORT,() => {
   infoLogger.info(`Server is running on port ${process.env.PORT}`)
 })
+console.log("Testing")
